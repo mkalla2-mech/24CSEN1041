@@ -1,1 +1,1 @@
-This is my first github repo <br> I use for my pps-2.
+This is my first github repo <br> I use this for my pps-2.
