@@ -1,14 +1,9 @@
 for i in range(1, 100):
-     
-    if i % 2 != 0:
-        continue      # Skip odd numbers
-    elif i == 25:
-        break         # Exit the loop when i becomes 25
-    else:
-        pass          # Dummy placeholder
 
-    # This block runs only for even numbers before 25
-    print(i * i)
+    if i == 25:
+        break
+    elif i % 2 == 0:
+        print(i * i)
 
 #OUTPUT
 4
@@ -23,42 +18,5 @@ for i in range(1, 100):
 400
 484
 576
-676
-784
-900
-1024
-1156
-1296
-1444
-1600
-1764
-1936
-2116
-2304
-2500
-2704
-2916
-3136
-3364
-3600
-3844
-4096
-4356
-4624
-4900
-5184
-5476
-5776
-6084
-6400
-6724
-7056
-7396
-7744
-8100
-8464
-8836
-9216
-9604
 
 === Code Execution Successful ===
